@@ -1,0 +1,12 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+#title-content {
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
