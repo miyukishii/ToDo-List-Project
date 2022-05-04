@@ -32,6 +32,34 @@ body {
     text-align: center;
 }
 
+.btn {
+    display: flex;
+    margin: 10px;
+}
+
+#apaga-tudo {
+    background-color: rgb(148, 47, 47);
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+#remover-finalizados {
+    background-color: rgb(148, 47, 47);
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+
 .campo-tarefa {
     flex-direction: row;
 }
@@ -60,9 +88,12 @@ body {
 }
 
 #lista-tarefas {
-    display: flex;
-    flex-direction: column;
     width: 50px;
     font-size: 20px;
     margin: 30px;
 }
+
+.completed {
+    text-decoration: line-through;
+}
+
