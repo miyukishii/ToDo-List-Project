@@ -1,99 +1,35 @@
 * {
-    margin:0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(192, 186, 186);
+  background-color: rgb(218 , 231 , 210);
 }
 
-#title-content {
-    font-size: 30px;
-    display: flex;
-    color: white;
-    background-color: rgb(110, 52, 52);
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
-#flex-content {
-    display: flex;
-    justify-content: center;
-}
-#main-content {
-    background-color: rgb(150, 140, 140);
-    border-radius: 10px;
-    width:70%;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 80px;
-    text-align: center;
+header {
+  font-size: 1.2em;
+  color: white;
+  background-color: rgb(29 , 85 , 36);
+  height: 20vh;
+  width: 100vw;
+  text-align: center;
+  padding-top: 16px;
 }
 
-.btn {
-    display: flex;
-    margin: 10px;
+@media screen and ( max-width : 380px ) {
+
+  header {
+    font-size: 0.9em;
+    height: 15vh;
+    padding-top: 15px;
+  }
 }
 
-#apaga-tudo {
-    background-color: rgb(148, 47, 47);
-    color: white;
-    font-size: 15px;
-    height: 30px;
-    width: 150px;
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-    margin: 10px;
-}
-#remover-finalizados {
-    background-color: rgb(148, 47, 47);
-    color: white;
-    font-size: 15px;
-    height: 30px;
-    width: 150px;
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-    margin: 10px;
-}
-
-.campo-tarefa {
-    flex-direction: row;
-}
-
-#texto-tarefa {
-    width: 300px;
-    height: 30px;
-    padding-left: 5px;
-}
-
-#flex-content p {
-    font-size: 20px;
-    padding: 20px;
-}
-
-#criar-tarefa {
-    background-color: dimgrey;
-    color: white;
-    font-size: 15px;
-    margin: 10px;
-    height: 30px;
-    width: 150px;
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-}
-
-#lista-tarefas {
-    width: 50px;
-    font-size: 20px;
-    margin: 30px;
+.selected {
+  background-color: gray;
 }
 
 .completed {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
-

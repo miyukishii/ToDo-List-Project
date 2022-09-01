@@ -16,14 +16,18 @@
             <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
         <div class="adicionar-campo">
             <input type="text" id="texto-tarefa" placeholder="Digite tarefa">
-            <button id="criar-tarefa">Adcionar tarefa</button>
+            <button id="criar-tarefa">Adcionar</button>
          </div >
-         <div class='btn'>
+         <div class='btn-container'>
             <button id="apaga-tudo">Limpar tarefas</button>
             <button id="remover-finalizados">Remover finalizados</button>
+            <button id="remover-selecionado">Remover selecionado</button>
+            <button id="salvar-tarefas">Salvar lista</button>
+            <button class="mover" id="mover-cima">⬆︎</button>
+            <button class="mover" id="mover-baixo">⬇</button>
         </div>
         </div>
-        
+        <div class="list-container"><ol id="lista-tarefas"></ol></div>
     </section>
     <script src="script.js"></script>
 </body>
