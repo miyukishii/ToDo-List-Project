@@ -17,7 +17,7 @@ function addEvenOnItem(event) {
       item !== event.target ? item.classList.remove('selected') : true
     ));
   }
-  event.target.classList.add('selected');
+  event.target.classList.toggle('selected');
 }
 
 function addTask() {

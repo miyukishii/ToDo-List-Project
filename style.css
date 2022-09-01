@@ -4,32 +4,148 @@
 }
 
 body {
-  background-color: rgb(218 , 231 , 210);
+  background: linear-gradient(0deg , rgb(197 , 196 , 219) 0% , rgba(207 , 207 , 207 , 1)
+  31% , rgba(128 , 234 , 255 , 1) 100%);
+  height: 100vh;
 }
 
 header {
   font-size: 1.2em;
   color: white;
-  background-color: rgb(29 , 85 , 36);
-  height: 20vh;
-  width: 100vw;
+  background-color: rgb(39 , 111 , 170);
+  height: 120px;
+  width: 80vw;
+  margin: 20px auto;
+  border-radius: 20px;
   text-align: center;
-  padding-top: 16px;
 }
 
-@media screen and ( max-width : 380px ) {
+header h1 {
+  padding-top: 35px;
+}
+
+@media screen and ( max-width : 480px ) {
 
   header {
     font-size: 0.9em;
-    height: 15vh;
-    padding-top: 15px;
+    height: 100px;
+  }
+
+  header h1 {
+    padding-top: 35px;
   }
 }
 
+#flex-content {
+  background-color: rgba(218 , 232 , 236 , 0.705);
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 80vw;
+  margin: auto;
+  border-radius: 20px;
+  align-items: center;
+}
+
+form {
+  margin: 20px;
+}
+
+form p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.adicionar-campo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.adicionar-campo input {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(120 , 191 , 233);
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.adicionar-campo button {
+  border-radius: 5px;
+  padding: 5px;
+  border-color: rgb(120 , 191 , 233);
+}
+
+.btn-container button {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#apaga-tudo {
+  background-color: rgb(212 , 144 , 144);
+  border-color: rgb(201 , 103 , 103);
+}
+
+#remover-finalizados {
+  background-color: rgb(228 , 217 , 68);
+  border-color: rgb(250 , 187 , 13);
+}
+
+#remover-selecionado {
+  background-color: rgb(28 , 192 , 91);
+  border-color: rgb(28 , 150 , 75);
+}
+
+#salvar-tarefas {
+  background-color: rgb(142 , 109 , 204);
+  border-color: rgb(102 , 58 , 204);
+}
+
+#mover-cima {
+  background-color: rgb(127 , 183 , 236);
+  border-color: rgb(111 , 189 , 212);
+}
+
+#mover-baixo {
+  background-color: rgb(127 , 183 , 236);
+  border-color: rgb(111 , 189 , 212);
+}
+
+.adicionar-campo button:hover {
+  transform: scale(1.05);
+}
+
+#apaga-tudo:hover {
+  transform: scale(1.05);
+}
+
+#remover-finalizados:hover {
+  transform: scale(1.05);
+}
+
+#remover-selecionado:hover {
+  transform: scale(1.05);
+}
+
+#salvar-tarefas:hover {
+  transform: scale(1.05);
+}
+
+.mover:hover {
+  transform: scale(1.05);
+}
+
+li {
+  line-height: 25px;
+}
+
 .selected {
-  background-color: gray;
+  background-color: rgb(85 , 155 , 212);
 }
 
 .completed {
-  text-decoration: line-through;
+  text-decoration: line-through rgb(100 , 100 , 235);
 }
