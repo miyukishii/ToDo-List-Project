@@ -1,7 +1,7 @@
 ## **Bem-vindo ao repositório do projeto Todo List!**
 
 ### Screenshots
-![Screenshot da tela inicial do Alura Plus](screenshot.png)
+![Screenshot da tela inicial](screenshot.png)
 
 ### Contexto
 No projeto Todo List foi desenvolvido uma aplicação de lista de tarefas, podendo adicionar diferentes tasks e reordenar por prioridades, selecionar uma tarefa, marcar como finalizada, assim como remover ou salvar a sua lista.
